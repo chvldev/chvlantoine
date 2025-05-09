@@ -11,9 +11,9 @@ export default function Home() {
     <main className="min-h-screen bg-black text-white flex flex-col items-center justify-center px-4 py-12">
       {/* Logo Section */}
       <motion.img
-        src="/CHVL.png"
+        src="/CHVL2.png"
         alt="CHVL Logo"
-        className="w-40 h-40 mb-6"
+        className="w-60 h-60 mb-6"
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1 }}
@@ -34,7 +34,7 @@ export default function Home() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.8, duration: 1 }}
       >
-        Entrepreneur | Builder | Operator
+        Creating amazing ventures & building my dream life
       </motion.p>
 
       {/* Social Links */}
@@ -59,7 +59,7 @@ export default function Home() {
           className="bg-zinc-900 p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow text-center"
         >
           <h2 className="font-bold text-xl">Déclarations Juridiques</h2>
-          <p className="text-sm text-gray-400">Legal declarations made simple</p>
+          <p className="text-sm text-gray-400">GDPR made simple</p>
         </a>
         <a
           href="https://mesadherents.fr/"
